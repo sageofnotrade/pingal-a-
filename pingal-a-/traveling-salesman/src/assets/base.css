@@ -1,0 +1,55 @@
+/* color palette for whimsical salesman/city/shop theme */
+:root {
+  --vt-c-white: #fffbe9;
+  --vt-c-white-soft: #fdf6e3;
+  --vt-c-white-mute: #f7e7ce;
+
+  --vt-c-black: #222e50;
+  --vt-c-black-soft: #2c3e50;
+  --vt-c-black-mute: #34495e;
+
+  --vt-c-indigo: #222e50; /* navy */
+  --vt-c-gold: #ffd700;
+  --vt-c-tan: #f7e7ce;
+  --vt-c-red: #e74c3c;
+  --vt-c-green: #4caf50;
+  --vt-c-orange: #ff9800;
+
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: var(--vt-c-black);
+  --vt-c-text-light-2: #6a6a6a;
+  --vt-c-text-dark-1: var(--vt-c-white);
+  --vt-c-text-dark-2: #e0e0e0;
+}
+
+:root {
+  --color-background: var(--vt-c-tan);
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+
+  --color-border: var(--vt-c-gold);
+  --color-border-hover: var(--vt-c-orange);
+
+  --color-heading: var(--vt-c-indigo);
+  --color-text: var(--vt-c-black);
+
+  --section-gap: 160px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-gold);
+    --color-border-hover: var(--vt-c-orange);
+
+    --color-heading: var(--vt-c-gold);
+    --color-text: var(--vt-c-white);
+  }
+} 
